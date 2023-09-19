@@ -9,8 +9,9 @@ FavoriteShow="Spongebob"
 
 #exercise 3:
 
-height=5'7
+height=5.7
 age=16
+print( height * age )
 
 
 #Exercise 4
@@ -19,21 +20,27 @@ print("Im going to break")
 
 #exercise 5
 
-list(favoritefoods)={ kfc,popeyes, watermelon}
+fav_food=['pizza','fried chicken','watermelon']
 
 #exercise 6 
 
- if age
+if age>= 21 : 
+    Print(" You can rent a car  ")
+else :
+    Print("Your beat")
 
 #exercise 7
 
-print("what is your name?")
-input(+name)
-print(Hello +name )
-
+Their_name=input( "what is your name?")
+print("Hello,"+Their_name)
 #exerciese 8
+for i in fav_food :
+    Print(i)
 
 
 #exercise 9
 
-while
+x=1
+
+while x == 2 :
+    print(" equal")
