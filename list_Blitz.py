@@ -53,3 +53,7 @@ print(Food)
 
 #Task 7: Create a List with a Range of Numbers
 #Create a list containing numbers within a specified range (inclusive). Print the created list
+
+
+
+
