@@ -6,6 +6,11 @@ def square(int):
   return  int**2
 est=square(5)
 print(est)
+assert est == 25
+# assert  checks to make sure that 5**2 equals to 25
+assert square(7) == 49
+#if we change int to 7 we would do it to the second power and make sure it equal to 49
+
 
 # use return int**2 to returnn as a square
 """
@@ -16,6 +21,12 @@ def aor(length, width) :
    return length * width
 taco =  aor(6,7)
 print(taco)
+assert taco == 42 
+#assert  checks to make sure that the answer is equal to 6*7
+assert aor(7,8) == 56
+# assert checks that 7*8 is equal to 56
+
+
 
 # use retun to multiply length and with and use taco to hold  the info
 """
@@ -30,6 +41,11 @@ def temp(a):
 # returns value, multiples a by (9/5), and adds 32
 print(temp(1),"°C") 
 # Calls function
+assert temp(1) == 33.8
+# assert checks that the return is equal to 33.8
+assert temp(2) == 35.6
+# assert checks that the return is multiplied by 2 and equal 35.6
+
 
 """
 Task 4: Calculate the Average of Numbers:
@@ -44,5 +60,6 @@ def avgNumber(a):
     # Retieves avg by dividing total by length of avg
     return avg 
 # Returns avg value
-    return total / len(a) 
-# Returns and retieves avg by dividing total by length of avg
+
+#assert checks that the return is equal to the avg
+
