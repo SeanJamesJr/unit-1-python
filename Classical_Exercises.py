@@ -6,11 +6,12 @@ Then, write a method within the class to introduce the person with their name an
 Create a new object using this new class, and call the method you created.
 """
 class Person():
-    def __init__ (self, name, age):
+    def __init__ (self, name, age): 
      self.name = name
      self.age = age
-    
-    def hello (self):
+    # makes person class and defines _innit__ with the attributes name and age
+
+    def hello (self): # defines hello and gives the attriutes and prints name and age
         print(self.name)
         print(self.age)
 
@@ -25,18 +26,18 @@ Then create two subclasses, Dog and Cat, each with their own speak method.
 
 Create objects using these subclasses and call the speak method.
 """
-class Animal():
+class Animal(): # makes class for animal and define speak
    def speak(self) :
     print()
 
-class Dog(Animal):
+class Dog(Animal): # makes dog class and sets it to animal and defineds speak and gives it woof to print
    def speak(self):
       print("woof")
 
 speak = Dog()
 speak.speak()
 
-class Cat(Animal):
+class Cat(Animal): # makes cat class and sets it to animal and defineds speak and gives it meow to print
    def speak(self):
       print("meow")
       speak = Cat()
@@ -58,12 +59,12 @@ class BankAccount:# define banckaccount class
       self.o = owner# initialize owner
 
 def balances(self):
-      print( f" {self.owner}'s Bank Account Balance: {self.balance}") # shows starting balance
+      print( f" {self.o}'s Bank Account Balance: {self.b}") # shows starting balance
 def withdraw( self,subtract):
    self.b = self.b - subtract #math function to subtract amount from original balance
    print(f" Your new balance is {self.b}")
 def depoist (self,depoist):
-   self.balance = self.balance +depoist # add anount to new balance
+   self.b = self.b +depoist # add anount to new balance
    print(f"your new balance is { self.b}")
 
 
